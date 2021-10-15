@@ -42,6 +42,7 @@ export class NgAuthService {
   }
 
   SignIn(email, password) {
+    console.log('signin called');
     return this.afAuth
       .signInWithEmailAndPassword(email, password)
       .then((result) => {

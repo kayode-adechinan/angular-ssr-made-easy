@@ -41,6 +41,7 @@ export class LandingComponent implements OnInit {
     });
   }
 
+  // you can extract it in a shared service and use it abuse it anywhere
   setCanonicalURL(url?: string) {
     const canURL = url == undefined ? this.dom.URL : url;
     const link: HTMLLinkElement = this.dom.createElement('link');
