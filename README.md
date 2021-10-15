@@ -113,3 +113,7 @@ To take this implementation to the edges we also use firebase for authentication
 
 - see todo.service.ts for http requests
 - see ng-auth.service.ts for auth
+
+# Resources
+
+[Angular 12 SEO – Set Dynamic Page Title and Meta Tags in Universal App](https://www.positronx.io/angular-seo-set-dynamic-page-title-meta-tags-in-universal-app/)
